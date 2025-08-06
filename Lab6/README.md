@@ -14,6 +14,21 @@ Use a logic analyzer/oscilloscope to examine ISR timing and latency.
 
 Light an RGB LED based on a counter that changes each time a switch is pressed.
 
+Using an oscilloscope or logic analyzer:
+
+ISR latency is measured from switch press to ISR debug line activation.
+
+Observed latency: ~24.8µs
+
+The main program debug line (DBG_Main) drops during ISR execution, confirming CPU handover.
+
+CPU and Stack Analysis
+Registers like R0, R14 (LR), and R15 (PC) are inspected during ISR entry.
+
+The Main Stack Pointer (MSP) stores context automatically during ISR entry.
+
+Students analyze memory windows to track how register values are pushed/popped during context switch.
+
 Core Functions Used
 
 ```c
