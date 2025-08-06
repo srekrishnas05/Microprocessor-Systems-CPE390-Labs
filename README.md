@@ -12,9 +12,13 @@ Topics covered include:
 7) Real-time embedded applications
 
 Tools & Environment
+
 **Microcontroller:** Keil::NUCLEO-L552ZE-Q_BSP
+
 **IDE:** Keil µVision 5
+
 **Languages:** C
+
 **Debugger:** ST-Link V3
 
 This project is for educational and portfolio use.
