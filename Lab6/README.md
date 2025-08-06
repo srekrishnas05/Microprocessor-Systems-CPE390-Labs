@@ -4,15 +4,15 @@ This lab introduces external interrupts and how they affect the CPU state, stack
 I also used oscilloscopes and debug tools to analyze CPU behavior during ISR execution.
 
 **Learning Objectives**
-Write an **interrupt-driven program** using an ISR and GPIO.
+Write an interrupt-driven program using an ISR and GPIO.
 
-Understand **interrupt triggering**, NVIC configuration, and ISR execution.
+Understand interrupt triggering, NVIC configuration, and ISR execution.
 
-Analyze the **stack and register values** when an interrupt occurs.
+Analyze the stack and register values when an interrupt occurs.
 
-Use a **logic analyzer/oscilloscope** to examine ISR timing and latency.
+Use a logic analyzer/oscilloscope to examine ISR timing and latency.
 
-Light an RGB LED based on a **counter** that changes each time a switch is pressed.
+Light an RGB LED based on a counter that changes each time a switch is pressed.
 
 Core Functions Used
 
