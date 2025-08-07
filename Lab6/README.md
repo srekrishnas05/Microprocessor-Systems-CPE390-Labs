@@ -16,9 +16,7 @@ Light an RGB LED based on a counter that changes each time a switch is pressed.
 
 Using an oscilloscope or logic analyzer:
 
-ISR latency is measured from switch press to ISR debug line activation.
-
-Observed latency: ~24.8µs
+ISR latency is measured from switch press to ISR debug line activation. Observed latency: ~24.8µs
 
 The main program debug line (DBG_Main) drops during ISR execution, confirming CPU handover.
 
