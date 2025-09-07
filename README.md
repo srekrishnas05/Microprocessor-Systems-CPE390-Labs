@@ -25,7 +25,7 @@ Tools & Environment
 
 ### Project Structure & Contribution Note
 
-Each lab in this repository is based on template code provided as part of the course curriculum. In most cases, only specific files (typically `main.c` and other.c files) were edited to complete the assigned tasks, while the remaining source files were included as-is to preserve project structure and build functionality.
+Each lab in this repository is based on template code provided as part of the course curriculum. In most cases, only specific files (typically main.c and other.c files) were edited to complete the assigned tasks, while the remaining source files were included as-is to preserve project structure and build functionality.
 
 
 This project is for educational and portfolio use.
